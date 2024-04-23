@@ -1,0 +1,16 @@
+{
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The satyesh ji."
+      },
+      "email": {
+        "description": "Email of satyesh ji",
+        "type": "string"
+      },
+      "password": {
+        "description": "Password of satyesh ji.",
+        "type": "string"
+      }
+    }
+  }

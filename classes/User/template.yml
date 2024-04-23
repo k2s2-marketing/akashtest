@@ -1,0 +1,27 @@
+init:
+  handler: index.init
+  inputModel: RegisterInput
+getState: index.getState  
+authorizer: index.authorizer # Our authorizer
+getInstanceId: index.getInstanceId
+
+methods:
+  - method: register
+    type: STATIC
+    inputModel: RegisterInput
+    handler: index.register
+
+  - method: login
+    type: STATIC
+    inputModel: LoginInput
+    handler: index.login
+    
+  - method: validatePassword
+    type: READ
+    inputModel: LoginInput
+    handler: index.validatePassword
+
+  - method: updateProfile
+    type: WRITE
+    inputModel: RegisterInput
+    handler: index.updateProfile

@@ -1,0 +1,16 @@
+{
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Name."
+      },
+      "email": {
+        "description": "Email",
+        "type": "string"
+      },
+      "password": {
+        "description": "Password.",
+        "type": "string"
+      }
+    }
+  }

@@ -1,0 +1,16 @@
+{
+    "type": "object",
+
+    "required": ["email", "password"],
+
+    "properties": {
+      "email": {
+        "description": "Email of satyesh ji",
+        "type": "string"
+      },
+      "password": {
+        "description": "Password of satyesh ji.",
+        "type": "string"
+      }
+    }
+  }

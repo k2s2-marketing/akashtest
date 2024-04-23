@@ -1,0 +1,10 @@
+{
+  "name": "dolu_market",
+  "version": "0.0.1",
+  "dependencies": {
+    "@retter/rdk": "2.0.5"
+  },
+  "scripts": {
+    "deploy": "rio d --p demo --pid 86d9364ku --i"
+  }
+}

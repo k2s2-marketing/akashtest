@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "required": [
+    "Name",
+    "Age",
+    "Email",
+    "Password"
+  ],
+  "properties": {
+    "Name": {
+      "type": "string",
+      "description": "The person's name."
+    },
+    "Age": {
+      "type": "integer",
+      "description": "The person's age."
+    },
+    "Email": {
+      "type": "string",
+      "description": "The person's email address."
+    },
+    "Password": {
+      "type": "string",
+      "description": "The person's password."
+    }
+  }
+}
